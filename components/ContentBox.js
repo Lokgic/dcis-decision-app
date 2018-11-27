@@ -47,7 +47,7 @@ export default class ContentBox extends Component{
 }
 
 const contentParser = (data,tx)=>{
-    console.log(data)
+
     switch (data.contentType){
         case "text": 
             return (<p>{data.basicContent[tx]}</p>)
