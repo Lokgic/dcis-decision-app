@@ -1,4 +1,3 @@
-import { Form, Select, Option } from 'informed';
 import {Dropdowns} from '../style/GridSC'
 import TxData from '../content/treatments.json'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

@@ -47,6 +47,7 @@ export const MainContainer = styled.div`
     display:grid;
     height:100vh;
     grid-template-rows: auto 1fr; 
+    max-height:100vh;
     /* min-height:400px; */
     grid-template-areas:
     "header"

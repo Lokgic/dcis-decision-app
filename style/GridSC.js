@@ -67,13 +67,24 @@ export const GridSubContent = styled.div`
     width:50%;
     align-self: start;
     flex-direction:column;
+    font-size:1rem;
+    overflow:scroll;
     p {
+
         margin:auto;
-        width:auto 5px;
+        width:auto;
+        line-height:1rem;
+        
     }
 
     img {
-        margin:auto;   
+        margin:auto; 
+        max-width:100px;  
+    }
+    li {
+        margin:0;
+        padding:0;
+        line-height:1rem
     }
 `
 
